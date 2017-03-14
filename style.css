@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 50%;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+ol li:nth-child(odd) {
+  background: #DAE8F2;
+}
+
+li {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input, button {
+  outline: none;
+}
+input[type="text"] {
+  margin: 0;
+  background: #fff;
+  border-radius: 6px;
+  color: #888;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  
+}
+
+input[type="text"]:focus {
+  color: #333;
+}
+
+
+button {
+  font-size: 16px;
+  margin: 10px 0 0;
+  cursor: pointer;
+   background: black;
+  color: white;
+  border: 0px;
+}
+button:hover {
+  color: #333;
+}
+ol button{
+  margin-left: 10px;
+  color: Red;
+}
+ol li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
